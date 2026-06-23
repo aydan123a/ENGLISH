@@ -1,0 +1,56 @@
+**63. What is an API?** 
+API stands for Applica on Programming Interface and serves as a digital bridge. It is a set of 
+rules allowing two different soware programs to communicate. For example, an applica on 
+uses an API to show maps from Google services. It defines the correct request format and 
+response data layout between computers. It allows developers to use external features without 
+wri ng everything from scratch. It connects frontend applica ons with backend services 
+securely across the global internet. 
+**64. What is the Fetch API?** 
+The Fetch API is a modern, built-in JavaScript tool used for network requests. It allows web 
+developers to easily request data from any external server URL. It uses JavaScript Promises 
+behind the scenes to handle the server's responses smoothly. It replaced the old and complex 
+XMLH pRequest system in modern web development standards. It is the standard way to load 
+new content without refreshing the webpage. It returns a response object that can be 
+converted into JSON format easily. 
+**65. Explain HTTP status codes.** 
+HTTP status codes are three-digit numbers sent by web servers to browsers. They tell the 
+browser whether an internet request was successful or failed completely. For example, a 200 OK 
+code means the request worked perfectly as expected. A 404 Not Found code means the 
+requested webpage does not exist anywhere. Codes star ng with 5 mean there is a serious 
+error on the server side. They help developers debug network connec on problems during 
+applica on development cycles. 
+**66. What is the difference between frontend and backend development?** 
+Frontend development focuses on the visual parts of a website that users see. It uses languages 
+like HTML, CSS, and JavaScript to build interac ve user interfaces. Backend development 
+focuses on the server, database, and logic working behind the scenes. It handles secure tasks 
+like user authen ca on, data processing, and payment system inputs. The frontend requests 
+data, and the backend processes that request and sends answers. Both sides must work 
+together smoothly to create a complete func onal web applica on. 
+**67. Explain the concept of Single Page Applica ons (SPA).** 
+A Single Page Applica on is a modern website that loads one HTML document. Instead of 
+reloading the whole page during clicks, it updates sec ons using JavaScript. This makes 
+transi ons feel extremely fast and smooth for the visi ng user interface. It acts like a local 
+desktop or mobile applica on rather than a website. Famous examples of tools used to build 
+SPAs include React, Angular, and Vue. It reduces server bandwidth usage by only downloading 
+data when it is needed. 
+**68. What are the main advantages of modular JavaScript?** 
+Modular JavaScript allows developers to break giant code files into separate smaller modules. 
+Each module has a specific small job and operates independently from others. You can export 
+code from one module and import it into another file. The main advantage is that it makes code 
+much easier to organize over me. It prevents variable name conflicts because each module has 
+its own local scope. It also allows large development teams to work on separate features 
+simultaneously. 
+**69. What is Cross-Site Scrip ng (XSS)?** 
+Cross-Site Scrip ng is a dangerous security vulnerability found inside web applica ons. It 
+happens when an a acker injects malicious JavaScript code into a trusted website. This bad 
+script then runs automa cally inside the browsers of regular visi ng users. It is o en used by 
+hackers to steal private cookies or login tokens. Developers prevent XSS by cleaning user input 
+and escaping special text characters. Protec ng against XSS is a fundamental requirement for 
+secure web development prac ces. 
+**70. Explain the importance of website performance opmiza on.** 
+Website performance opmiza on means using special techniques to make web pages load 
+faster. It involves compressing large images, minimizing code files, and using browser caching 
+systems. It is important because fast websites provide an excellent experience for visi ng users. 
+Studies show that users leave websites if they take more than three seconds. It also helps the 
+webpage rank much higher on search engine result lists. Fast loading speeds reduce server costs 
+and improve overall business conversion metrics. 
