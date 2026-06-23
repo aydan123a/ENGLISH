@@ -1,0 +1,59 @@
+1. What is the purpose of HTML in web development?** 
+HTML stands for HyperText Markup Language. It is the basic structure of every webpage on the 
+internet. It gives the layout of the page by using elements like headings and paragraphs. 
+Without HTML, a website cannot display any text or structure. Web browsers read HTML files to 
+show the content correctly to users. It is the founda on of all web development. 
+**2. Explain the difference between seman c and non-seman c HTML tags.** 
+Seman c tags have a clear meaning for both the browser and the developer. For example, 
+<header> and <footer> tell you exactly what kind of content is inside them. Non-seman c tags 
+do not tell you anything about their content. Elements like <div> and <span> are non-seman c 
+because they only group items. They are used mostly for styling or layout purposes. Using 
+seman c tags makes your website much be er for search engines. 
+**3. What is the Document Object Model (DOM)?** 
+The DOM stands for Document Object Model. It is a tree-like structure created by the browser 
+when a webpage loads. It represents the HTML document as objects that can be changed. It 
+connects the HTML code to JavaScript so you can build dynamic pages. With the DOM, 
+JavaScript can easily add, remove, or edit elements. It acts like a bridge between your webpage 
+content and your script. 
+**4. What is the difference between <div> and <span> elements?** 
+The <div> element is a block-level element used for crea ng layouts. It always starts on a new 
+line and takes up the full width of the page. The <span> element is an inline element used for 
+small parts of text. It does not start on a new line and only takes up needed space. You use 
+<div> for big sec ons and <span> for specific words inside a paragraph. They are both non
+seman c elements used for styling. 
+**5. Explain the purpose of the <form> element.** 
+The <form> element is used to collect informa on from a user on a webpage. It contains 
+interac ve controls like text boxes, checkboxes, and radio bu ons. When a user enters data, the 
+form can send it to a backend server. It connects the front-end user interface with the database 
+system. It usually works with a ributes like ac on and method to control data. It is essen al for 
+user login, registra on, and contact pages. 
+**6. What are HTML a ributes? Give examples.** 
+HTML a ributes provide extra informa on about an HTML element. They always go inside the 
+opening tag of the element. They usually look like name and value pairs separated by an equal 
+sign. For example, the href a ribute in an <a> tag shows the link des na on. Another example 
+is the src a ribute in an <img> tag for images. They help customize how elements behave or 
+look on the screen. 
+**7. Explain the difference between absolute and rela ve URLs.** 
+An absolute URL contains the complete internet address of a file or website. It always includes 
+the protocol like h ps:// and the domain name. A rela ve URL points to a file path inside the 
+same website project. It does not include the domain name, only the path from the current 
+folder. Absolute URLs are best for linking to external websites. Rela ve URLs are perfect for 
+connec ng your own local pages together. 
+**8. What is the purpose of the <meta> tag?** 
+The <meta> tag provides important informa on about the webpage called metadata. This 
+informa on is hidden in the <head> sec on and is not visible to users. It helps search engines 
+like Google understand the main keywords of the page. It can also define the character set or 
+the author of the document. Addi onally, it is used to make the website responsive on mobile 
+screens. It is very important for Search Engine Opmiza on. 
+**9. What are HTML5 seman c elements and why are they important?** 
+HTML5 seman c elements are tags that clearly describe their meaning to computers and 
+humans. Examples include <nav>, <sec on>, <ar cle>, and <aside>. They are important because 
+they make the code much easier to read for developers. They help screen readers help blind 
+users navigate your website correctly. They also allow search engine bots to index your webpage 
+content be er. They replaced the old method of using <div> for everything. 
+**10. Explain the difference between GET and POST methods.** 
+The GET method is used to request data from a specific server. It shows the sent data inside the 
+website URL link address. Because of this, it is not safe for private info like passwords. The POST 
+method is used to send data to a server to update a database. It hides the data inside the 
+request body instead of the URL. Therefore, POST is much more secure for sensi ve user 
+informa on. 
