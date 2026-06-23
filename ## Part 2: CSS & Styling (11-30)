@@ -1,0 +1,128 @@
+**11. What is CSS and how is it applied to a webpage?** 
+CSS stands for Cascading Style Sheets. It is used to design the colors, fonts, and layout of a 
+webpage. It makes the plain HTML structure look beau ful and professional. You can apply CSS 
+to an HTML page in three different ways. These ways are inline styles, internal style tags, and 
+external CSS files. External files are the best choice for big website projects. 
+**12. Explain the CSS box model.** 
+The CSS box model is a box that wraps around every single HTML element. It consists of four 
+dis nct layers from the inside to the outside. These layers are the content, padding, border, and 
+margin. The content is the actual text or image on the screen. Padding is the inner space, while 
+border surrounds the padding layer. Margin is the outermost space that separates elements 
+from each other. 
+**13. What is the difference between margin and padding?** 
+Padding is the space inside an element, between the content and the border. It makes the 
+background area around the text look larger and cleaner. Margin is the empty space completely 
+outside the element's border. It creates distance between different HTML boxes on the 
+webpage layout. Padding affects the size inside the box, but margin affects the outside area. 
+Both are very important for controlling spacing in web design. 
+**14. Explain CSS specificity.** 
+CSS specificity is a set of rules that the browser uses to choose styles. If two different CSS rules 
+target the same element, the browser calculates scores. The rule with the highest specificity 
+score wins and changes the element. Inline styles have the highest score of all. ID selectors are 
+stronger than class selectors, and tag selectors are the weakest. It helps resolve conflicts when 
+mul ple styles are wri en for one item. 
+**15. What is the difference between class selectors and ID selectors?** 
+A class selector can be used on mul ple elements across the webpage. You target a class name 
+in CSS by wri ng a dot symbol before it. An ID selector is unique and can only be used on one 
+single element per page. You target an ID in CSS by using a hashtag symbol before it. Class 
+selectors are great for reusable styles like bu on designs. ID selectors are best for unique layout 
+sec ons like a naviga on bar. 
+**16. What are pseudo-classes in CSS?** 
+Pseudo-classes are keywords added to selectors that describe a special state of an element. For 
+example, the :hover pseudo-class changes the style when a mouse moves over it. Another 
+example is :focus, which styles an element when a user clicks inside an input. There is also :nth
+child, which selects specific items in a list. They help make websites feel interac ve without 
+using any complex JavaScript code. 
+**17. What are pseudo-elements in CSS?** 
+Pseudo-elements are keywords used to style specific parts of an HTML element. They are 
+wri en with two colons, such as ::before or ::a er. You can use them to add extra decora ve 
+content before or a er a text. Another example is ::first-le er, which changes only the first le er 
+of a paragraph. They do not create real new HTML tags in the DOM tree. They are very useful 
+for advanced CSS design techniques. 
+**18. Explain the purpose of the posi on property.** 
+The posi on property defines how an element sits on a webpage layout. It allows developers to 
+move elements away from their normal document flow. You can use it to create overlapping 
+designs or floa ng ac on bu ons. It works together with helper proper es like top, bo om, 
+le , and right. Without it, elements just follow a simple ver cal or horizontal order. It gives 
+complete control over the layout of web pages. 
+**19. What is the difference between rela ve, absolute, fixed, and s cky posi oning?** 
+Rela ve posi oning keeps the element in the normal flow but allows small movements. 
+Absolute posi oning removes the element from the flow rela ve to its nearest posi oned 
+parent. Fixed posi oning locks the element to the screen window so it never moves during 
+scroll. S cky posi oning acts like rela ve un l you scroll past it, then it locks. Rela ve leaves an 
+empty space behind, but absolute does not leave any space. Choosing the right one is cri cal for 
+building naviga on headers and popups. 
+**20. Explain how Flexbox works.** 
+Flexbox stands for Flexible Box Layout. It is a layout system used to arrange items easily in a 
+single row or column. It automa cally calculates the space and size of items inside its parent 
+container. It makes alignment very easy, even when the screen size changes dynamically. It is 
+called a one-dimensional system because it works in one direc on at a me. It solved many old 
+layout problems in web development history. 
+**21. What are the main proper es of a Flex container?** 
+The main container proper es control how items are arranged inside a flexbox layout. The 
+property display: flex ac vates the flexbox system on the parent element. The flex-direc on 
+property decides if items go horizontally in rows or ver cally in columns. The jus fy-content 
+property aligns the items along the main axis line. The align-items property controls the 
+alignment on the cross axis side. Finally, flex-wrap allows items to move to a new line if space is 
+small. 
+**22. Explain CSS Grid and its advantages.** 
+CSS Grid is a powerful layout system for webpages that uses columns and rows together. It is a 
+two-dimensional system, meaning it controls both horizontal and ver cal spaces. The main 
+advantage is that it makes big layout sec ons very easy to build. You can create complex grid 
+lines and place items anywhere inside them. It reduces the need for complex margins and old 
+floa ng elements in code. It is perfect for newspaper layouts or modern dashboard interfaces. 
+**23. What are media queries and why are they used?** 
+Media queries are filters in CSS that apply styles based on device characteris cs. They can check 
+things like screen maximum width, height, or screen resolu on. They are used to change the 
+website layout for smartphones, tablets, and computers. For example, a three-column layout 
+can become one column on small phone screens. Without them, desktop websites would look 
+too ny and unreadable on mobile devices. They are the core technology behind responsive 
+web design prac ces. 
+**24. What is responsive web design?** 
+Responsive web design is a method to make webpages look great on all devices. It means the 
+website automa cally adjusts its layout for phones, tablets, and desktop monitors. It uses 
+flexible grid systems, flexible images, and media queries to achieve this goal. This ensures a 
+good user experience for everyone, no ma er their screen size. It eliminates the need to build 
+separate websites for mobile and desktop users. It is an industry-standard requirement for all 
+modern web developers. 
+**25. Explain the difference between display: none and visibility: hidden.** 
+The rule display: none completely removes the element from the website layout structure. The 
+webpage acts as if that element does not exist at all, taking up zero space. The rule visibility: 
+hidden only hides the element from the eyes of the user. However, the element s ll stays in the 
+layout and takes up its normal empty space. Use display: none when you want to hide menus 
+completely. Use visibility: hidden when you want to keep the layout space intact. 
+**26. What is the purpose of CSS transi ons?** 
+CSS transi ons allow you to change style property values smoothly over a specific me. Instead 
+of changing a color instantly, the color shi s slowly over one or two seconds. This creates a so 
+anima on effect when users interact with specific elements. It makes user ac ons like hovering 
+over bu ons feel much more natural and nice. You must define the property name, dura on 
+me, and ming func on for it. They are great for simple, non-con nuous anima ons on your 
+page. 
+**27. What is the purpose of CSS anima ons?** 
+CSS anima ons are used to create complex movements on a webpage without using JavaScript. 
+They use keyframes to change styles smoothly from one state to another over me. You can 
+make objects bounce, rotate, or fade out automa cally on the screen. Unlike transi ons, 
+anima ons can start by themselves and repeat infinitely. They help grab user a en on and 
+make websites feel very modern and alive. They are highly opmized by web browsers for 
+smooth performance. 
+**28. Explain the z-index property.** 
+The z-index property controls the ver cal stack order of elements that overlap each other. It 
+only works on elements that have a posi on property like rela ve or absolute. An element with 
+a higher z-index number will appear on top of lower numbers. For example, a modal popup 
+should have a very high z-index value. Nega ve numbers are also allowed to push elements 
+behind the main content text. It helps manage layers when items share the same X and Y 
+posi ons. 
+**29. What is Bootstrap and why is it used?** 
+Bootstrap is a famous open-source CSS framework used for fast front-end web development. It 
+provides pre-made design components like bu ons, naviga on bars, modals, and grid systems. 
+Developers use it because it saves a lot of me when wri ng CSS from scratch. It also helps 
+make websites automa cally responsive and mobile-friendly out of the box. You just need to 
+add specific class names to your HTML tags. It ensures consistent styling across different web 
+browsers and devices. 
+**30. Explain accessibility in web development.** 
+Accessibility means designing websites so that everyone can use them easily and comfortably. 
+This includes people with disabili es, such as visual, hearing, or physical challenges. It involves 
+using seman c HTML tags and adding text descrip ons to image files. Good accessibility allows 
+screen readers to read the website content out loud for blind users. It also means the website 
+can be navigated using only a keyboard without a mouse. It is an important prac ce to make 
+technology open to all individuals. 
