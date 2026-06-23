@@ -1,0 +1,214 @@
+**31. What is JavaScript and where is it executed?** 
+JavaScript is a high-level programming language used to make webpages interac ve and 
+dynamic. It controls behaviors like form valida on checks, image sliders, or pop-up menus. It is 
+primarily executed directly inside the user's web browser, which is called the client side. 
+However, it can also run on backend servers using tools like Node.js. It runs on a single-threaded 
+engine using an event loop system. It is one of the three core technologies of the world wide 
+web. 
+**32. Explain the difference between let, const, and var.** 
+The keyword var is the oldest way to declare variables and has func on scope. The keyword let 
+is modern and has block scope, living only inside curly brackets. The keyword const is also block
+scoped but it is used for constant values. Once you assign a value to a const variable, you cannot 
+reassign it later. Variables created with let can be changed anyme in your program code. 
+Modern developers prefer using const and let to avoid scope bugs. 
+**33. What are JavaScript data types?** 
+JavaScript has different data types divided into primi ve and non-primi ve groups. Primi ve 
+types include strings for text, numbers for values, and booleans for true or false states. Other 
+primi ve types are undefined for unassigned variables, null for empty values, and symbols. Non
+primi ve types include objects, arrays, and func ons which store complex data collec ons. 
+Primi ve types hold a single value, but non-primi ve types can hold many values. JavaScript is a 
+dynamically typed language, so variables can change types easily. 
+**34. Explain type conversion in JavaScript.** 
+Type conversion is the process of changing a value from one data type to another. Implicit 
+conversion happens automa cally when JavaScript changes the data type behind the scenes. 
+This is also called type coercion, like adding a number to a text string. Explicit conversion 
+happens when a developer manually changes the type using built-in func ons. For example, 
+using the Number() func on turns a text string into a real number. Understanding both types 
+helps prevent strange bugs during mathema cal opera ons in code. 
+**35. What is the difference between == and ===?** 
+The == operator is called the loose or abstract equality operator in JavaScript. It compares two 
+values for equality a er conver ng them to the same data type. The === operator is called the 
+strict equality operator. It compares both the actual value and the exact data type without 
+changing anything. For example, 5 == "5" is true, but 5 === "5" is false. Using the strict operator 
+is always recommended to avoid unexpected logical bugs. 
+**36. Explain logical operators in JavaScript.** 
+Logical operators are symbols used to connect mul ple condi ons or boolean values together. 
+The && operator is called AND, and it returns true only if all condi ons are true. The || operator 
+is called OR, and it returns true if at least one condi on is true. The ! operator is called NOT, and 
+it reverses the boolean state completely. They are widely used inside condi onal statements to 
+control the program flow based on rules. They help write complex logic using simple true and 
+false values. 
+**37. What are condi onal statements?** 
+Condi onal statements are used to perform different ac ons based on different decisions in 
+code. They allow the computer script to run lines of code only if a condi on is true. The most 
+common condi onal statement is the if...else block structure. Developers also use else if chains 
+to check mul ple condi ons in a specific order. Another op on is the switch statement, which is 
+great for checking many constant cases. They make programs smart by allowing them to make 
+choices dynamically. 
+**38. Explain the purpose of loops in JavaScript.** 
+Loops are used in programming to repeat a block of code mul ple mes automa cally. They 
+save developers from wri ng the exact same lines of code over and over again. They run 
+con nuously un l a specific stop condi on evaluates to a false state. They are very useful for 
+going through long lists of data or array items. Without loops, processing thousands of database 
+records would be completely impossible for developers. They are a fundamental concept in 
+almost every programming language. 
+**39. Compare for, while, and do...while loops.** 
+A for loop is best used when you know exactly how many mes to repeat. A while loop repeats 
+code as long as a specified condi on remains true, checking before running. A do...while loop is 
+different because it always executes the code block at least once. It runs the code first and then 
+checks the condi on at the very end. The for loop includes counter ini aliza on, condi on, and 
+increment in one single line. Choosing the right loop depends on your specific data structure 
+and logic needs. 
+**40. What are func ons in JavaScript?** 
+Func ons are reusable blocks of code designed to perform a specific task in programming. They 
+only execute when they are called or invoked by another script line. Func ons help break down 
+large programs into smaller, organized, and clean pieces. They prevent code repe on and 
+make the overall project much easier to maintain. They can accept input data and return a final 
+calculated result to the caller. They are the core building blocks of modular JavaScript 
+applica ons. 
+**41. Explain the concept of scope.** 
+Scope determines the accessibility or visibility of variables in different parts of your code. It 
+defines exactly where you can read or use a variable you created. JavaScript has three main 
+types of scope: global scope, func on scope, and block scope. Global variables are visible 
+everywhere, while block variables only live inside curly brackets. Understanding scope is cri cal 
+to prevent variables from accidentally overwri ng each other's data. It helps manage memory 
+usage by destroying local variables when a func on finishes. 
+**42. What is the difference between local and global variables?** 
+Global variables are declared outside of any func on or block structure in the script. They can 
+be accessed and modified from anywhere inside the en re JavaScript file. Local variables are 
+declared inside a specific func on or a curly bracket block. They can only be used inside that 
+specific area and do not exist outside. Global variables stay in memory as long as the website 
+tab is open. Local variables are deleted automa cally from memory as soon as the func on 
+ends. 
+**43. What are arrow func ons?** 
+Arrow func ons are a shorter and modern way to write func ons in JavaScript code. They were 
+introduced in the ES6 update and use a special syntax with =>. They do not have their own 
+keyword this, which makes them great for callbacks. If the func on has only one line, you can 
+omit the return keyword. They make code look cleaner and reduce the total number of typed 
+lines. They are widely used in modern JavaScript frameworks like React and Vue. 
+**44. Explain func on parameters and return values.** 
+Func on parameters are placeholders inside the func on defini on that accept incoming input 
+data. When you call the func on, you pass real values called arguments into these parameters. 
+The return value is the final output that the func on sends back to the caller. Once a func on 
+hits a return statement, it stops execu ng its code immediately. If a func on does not have a 
+return statement, it returns undefined by default. They allow func ons to act like math formulas 
+that process inputs into outputs. 
+**45. What are arrays in JavaScript?** 
+An array is a special type of variable that can hold mul ple values together. It stores data in an 
+ordered list where each item has a number index. This index number always starts from zero for 
+the very first item in list. You can put different data types like strings, numbers, or objects inside 
+one array. They are very useful for managing collec ons of related data like user names. You can 
+find the total length of an array using the .length property. 
+**46. Explain common array methods.** 
+Array methods are built-in func ons used to manipulate lists of data very easily. The push() 
+method adds a new item to the very end of an array. The pop() method removes the last item 
+from the array list automa cally. Other common methods like shi () and unshi () handle items 
+at the beginning of arrays. You can also use splice() to add or remove items at any posi on. 
+These methods make array manipula on fast and efficient for developers. 
+**47. What are JavaScript objects?** 
+An object is a standalone data structure that stores data using key-value pairs. Unlike arrays, 
+objects do not use an ordered numerical index list for data access. The key is a text property 
+name, and the value can be any type. Values inside an object can even be func ons, which are 
+then called methods. Objects are used to represent real-world en es like a user account or 
+product. You can access proper es using dot nota on or square bracket nota on easily. 
+**48. Explain the difference between arrays and objects.** 
+Arrays are ordered lists used primarily to store collec ons of similar items like numbers. They 
+access items using numerical index posi ons star ng from zero in the list structure. Objects are 
+unordered collec ons used to store descrip ve proper es of a single complex item. They access 
+items using custom text property keys instead of automated numbers. Use an array when the 
+order of items is important for your logic. Use an object when you need to describe a specific 
+en ty with proper es. 
+**49. What is JSON and why is it used?** 
+JSON stands for JavaScript Object Nota on and is a standard data format. It is a lightweight 
+format used for storing and transpor ng data across the web. It is wri en completely in text 
+format, making it easy for humans to read. Computers can parse and generate JSON strings 
+extremely fast without heavy processing power. Web applica ons use JSON to send data from a 
+backend server to a browser. It is completely language-independent, so many programming 
+languages support it na vely. 
+**50. Explain event handling in JavaScript.** 
+Event handling is the process of capturing and responding to user ac ons on pages. These 
+ac ons include mouse clicks, keyboard key presses, or webpage scrolling events. When an 
+ac on happens, the web browser detects it and alerts the JavaScript engine. JavaScript then 
+triggers a specific block of code to run in response to it. This allows the website to feel 
+interac ve instead of being a sta c text page. It is the core concept behind modern, responsive 
+user interfaces on websites. 
+**51. What is an event listener?** 
+An event listener is a built-in browser func on that waits for an event. You a ach it to an HTML 
+element using the addEventListener() method in JS. It takes two main arguments: the event 
+type string and the handler func on. For example, it can listen for a 'click' event on a form 
+bu on. It sits quietly in the background un l the user triggers that exact ac on. You can also 
+remove it later using the removeEventListener() method if needed. 
+**52. Explain event bubbling.** 
+Event bubbling is a concept where an event moves upward through parent elements. When an 
+event fires on an element, it triggers its handlers first. Then, the same event travels up to its 
+parent element and triggers its handlers. This upward mo on con nues all the way up to the 
+main document root. It acts like a bubble rising to the top of a water surface. You can stop this 
+behavior using the event.stopPropaga on() method inside your code. 
+**53. What is DOM manipula on?** 
+DOM manipula on is the process of using JavaScript to change a website dynamically. It allows 
+you to add new text, delete paragraphs, or modify CSS colors in real-me. You must select 
+elements first using methods like document.getElementById() or querySelector(). A er selec ng 
+them, you can change their text, a ributes, or structural children nodes. This happens directly 
+in the browser memory without reloading the en re website page. It is essen al for crea ng 
+interac ve features like dark mode toggles or menus. 
+**54. Explain the difference between innerHTML and textContent.** 
+The innerHTML property gets or sets the HTML content inside an element, including tags. It can 
+interpret text strings as real HTML elements like bold text or bu ons. The textContent property 
+only gets or sets the plain raw text content inside elements. It treats everything as simple text 
+characters without rendering any custom HTML tags. Using textContent is much safer because it 
+protects against dangerous cross-site scrip ng a acks. Choose innerHTML only when you 
+explicitly need to inject new HTML elements dynamically. 
+**55. What is form valida on?** 
+Form valida on is a check to ensure user input matches required system rules. It verifies that 
+email addresses look correct and required text fields are not empty. This process stops users 
+from submi ng bad data or broken forms to servers. It gives immediate feedback to users so 
+they can fix mistakes before submission. It helps protect the applica on database from ge ng 
+corrupted with bad informa on. It is a cri cal part of web design for security and user 
+experience. 
+**56. Explain client-side valida on and server-side valida on.** 
+Client-side valida on happens directly inside the user's web browser before sending data out. It 
+gives instant error messages to the user, making the website feel very fast. Server-side 
+valida on happens on the backend computer a er the form is fully submi ed. It is absolutely 
+cri cal for security because client-side checks can be bypassed easily. An expert developer 
+always implements both valida on types to ensure maximum system protec on. Client-side is 
+for a good user experience, but server-side is for real safety. 
+**57. What is localStorage?** 
+localStorage is a web storage feature that saves data inside the user's browser. This saved data 
+has no expira on date and stays there permanently over me. It remains ac ve even if the 
+browser window is closed or computer restarts. It can only store simple text strings up to about 
+five megabytes of space. Developers use it to save persistent se ngs like a user's dark mode 
+theme. It can be accessed easily using setItem() and getItem() methods in JavaScript. 
+**58. What is sessionStorage?** 
+sessionStorage is a web storage feature very similar to the standard localStorage mechanism. 
+However, it has a key difference regarding data dura on and lifeme in browsers. It saves data 
+inside the browser only for the current ac ve tab session. Once the user closes that specific 
+browser tab, all stored data is deleted. It is ideal for storing temporary informa on like ac ve 
+mul-step form progress. It cannot be shared across different browser tabs or separate 
+windows of websites. 
+**59. What is asynchronous programming?** 
+Asynchronous programming allows a program to start a long task and move on. The script does 
+not stop and freeze while wai ng for the task to finish. This is very useful when fetching heavy 
+data from slow external web servers. It ensures that the website user interface stays responsive 
+and smooth at all mes. JavaScript uses features like callbacks, promises, and async/await to 
+handle this behavior. Without it, websites would freeze every me you click a bu on to load 
+data. 
+**60. Explain callbacks in JavaScript.** 
+A callback is a regular func on passed as an argument inside another func on. The main 
+func on runs its code and then executes the callback func on a erward. It was the tradi onal 
+way to handle asynchronous code blocks in early JavaScript. However, nes ng too many 
+callbacks inside each other creates a big problem. This problem is called callback hell, which 
+makes the code very hard to read. Modern JavaScript uses promises instead of callbacks to 
+write cleaner asynchronous scripts. 
+**61. What is a Promise?** 
+A Promise is a JavaScript object represen ng the future comple on of asynchronous tasks. It 
+acts like a real-world promise that guarantees to give you data later. A promise can be in one of 
+three states: pending, fulfilled, or rejected. It starts as pending and changes when the 
+asynchronous opera on finishes its work. It uses the .then() method to handle successful results 
+from the opera on. It uses the .catch() method to handle errors or failures cleanly in code. 
+**62. Explain async/await.** 
+The async/await syntax is a modern way to write asynchronous JavaScript code cleanly. The 
+async keyword is placed before a func on to show it returns a promise. The await keyword 
+stops code execu on un l a specific promise resolves its internal data. It replaces the old .then() 
+and .catch() chains with clean line-by-line text blocks. It makes asynchronous opera ons look 
+exactly like simple synchronous code which is easier. You should wrap your await lines inside a 
+try...catch block for safety. 
